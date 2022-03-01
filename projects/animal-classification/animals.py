@@ -3,15 +3,27 @@ print("Animals: The word animal comes from the Latin animalis, meaning 'having b
 class Animalia():
     def __init__(self,
                 scientific_name, 
-                commonNames, 
+                common_names, 
                 males, females, 
                 lifespan,
                 kingdom, 
                 phylum, 
-                ani_Class, 
+                ani_class, 
                 order,
                 family,
                 genus,
                 external_links
                 ) -> None:
-        pass
+        scientific_name = self.scientific_name
+        common_names = self.common_names
+        males = self.males
+        females = self.females
+        lifespan = self.lifespan
+        kingdom = self.kingdom
+        phylum = self.phylum
+        ani_class = self.ani_class
+        order = self.order
+        family = self.family
+        genus = self.genus
+        external_links = self.external_links
+
