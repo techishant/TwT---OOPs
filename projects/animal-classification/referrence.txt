@@ -5,10 +5,16 @@ Animalia()
         Common Names: ['Rabbits', 'Bunnies', 'Bunny rabbits']
         Males: Bucks
         Females: Does
+        Life Span:  9 years 
+
         Kingdom: Animal
         Phylum: Chordata
         Class: Mammal
+        Order: Lagomorpha
         Family: Leporids
         Breeds: 
         About: Rabbits are small, furry mammals with long ears, short fluffy tails, and strong, large hind legs. They have 2 pairs of sharp incisors (front teeth), one pair on top and one pair on the bottom.
         External Links: ['https://en.wikipedia.org/wiki/Rabbit', https://en.wikipedia.org/wiki/List_of_rabbit_breeds]
+
+https://en.wikipedia.org/wiki/Animal#Phylogeny
+kingdom, phylum, class, order, family, genus, species.
