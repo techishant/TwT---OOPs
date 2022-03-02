@@ -8,5 +8,5 @@ class Item:
         return self.x + self.y
 
 a = Item(x=1, y='5')
-# sum = a.add()
-# print(sum)
+sum = a.add()
+print(sum)
