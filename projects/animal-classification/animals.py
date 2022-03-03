@@ -6,7 +6,6 @@ class Animalia():
                 common_names, 
                 males, females, 
                 lifespan,
-                kingdom, 
                 phylum, 
                 ani_class, 
                 order,
@@ -14,12 +13,24 @@ class Animalia():
                 genus,
                 external_links
                 ) -> None:
+        
+        # Assertions
+
+        assert scientific_name is str, f"scientific_name should be a str"
+        assert common_names is list, f"common_names should be a list"
+        for name in common_names:
+            assert name is str, f"common_names' elements should be a str"
+        assert males is str, f"males should be a str"
+        assert females is str, f"females should be a str"
+        assert lifespan is int, f"lifespan should be a int"
+        assert scientific_name is str, f"Scientific Name should be a String"
+
+        # Declaring
         scientific_name = self.scientific_name
         common_names = self.common_names
         males = self.males
         females = self.females
         lifespan = self.lifespan
-        kingdom = self.kingdom
         phylum = self.phylum
         ani_class = self.ani_class
         order = self.order
