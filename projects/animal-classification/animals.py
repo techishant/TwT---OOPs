@@ -23,7 +23,7 @@ class Animalia():
         assert males is str, f"males should be a str"
         assert females is str, f"females should be a str"
         assert lifespan is int, f"lifespan should be a int"
-        assert scientific_name is str, f"Scientific Name should be a String"
+        assert phylum in ['Annelids', 'Arthropods', ], f" should be a String"
 
         # Declaring
         scientific_name = self.scientific_name
