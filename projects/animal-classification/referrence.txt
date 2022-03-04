@@ -21,3 +21,19 @@ Animalia()
 
 https://en.wikipedia.org/wiki/Animal#Phylogeny
 kingdom, phylum, class, order, family, genus, species.
+
+
+
+
+
+'Annelids'    
+'Arthropods'	
+'Bryozoa'	
+'Chordates'
+'Cnidaria'
+'Echinoderms'	
+'Molluscs'
+'Nematodes'
+'Platyhelminthes'
+'Rotifers'
+'Sponges'
