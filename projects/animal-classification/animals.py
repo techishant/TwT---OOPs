@@ -2,6 +2,33 @@ print("Animals: The word animal comes from the Latin animalis, meaning 'having b
 
 class Animalia():
     phylums = ['Annelids', 'Arthropods', 'Bryozoa', 'Chordates', 'Cnidaria', 'Echinoderms', 'Molluscs', 'Nematodes','Platyhelminthes', 'Rotifers', 'Sponges']
+    classifications = {
+        'Annelids':['Clitellata', 'Polychaeta'],
+        'Arthropods':['Arachnida','Xiphosura','Pycnogonida'],
+        'Bryozoa': ['Gymnolaemata', 'Phylactolaemata', 'Stenolaemata'],
+        'Chordates': [
+                        {'Cephalochordata': ['Leptocardii']},
+                        {'Tunicata': ['Appendicularia', 'Ascidiacea', 'Sorberacea', 'Thaliacea']},
+                        {'Vertebrata'},
+                        {'Agnatha'},
+                        {'Cyclostomata': ['Myxini', 'Petromyzontida']},
+                        {'Gnathostomata': ['Chondrichthyes']},
+                        {'Osteichthyes': ['Actinopterygii', 'Sarcopterygii']},
+                        {'Tetrapoda': ['Amphibia', {
+                                                    'Amniota': ['Mammalia', 'Aves', 'Reptilia']
+                                                    }
+                                        ]
+                        }
+                    ],
+        'Cnidaria': ['Anthozoa', 'Cubozoa', 'Hydrozoa', 'Malacosporea', 'Myxosporea', 'Scyphozoa', 'Staurozoa', 'Polypodiozoa'],
+        'Echinoderms': [
+                            {
+                                'Crinozoa': ['Crinoidea'],
+                                'Asterozoa': ['Asteroidea', 'Ophiuroidea'],
+                                'Echinozoa': ['Echinoidea', 'Holothuroidea']
+                            }
+                        ] 
+        }
     def __init__(self,
                 scientific_name, 
                 common_names, 
